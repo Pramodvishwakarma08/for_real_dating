@@ -1,0 +1,236 @@
+name: push_notifications_firebase_flutter
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  video_compress_ds: ^3.1.6
+  velocity_x: ^4.1.1
+  hexcolor: ^3.0.1
+  flutter_svg: ^2.0.7
+  dotted_border: ^2.0.0+3
+  reels_viewer: ^1.0.0+3
+  intl: ^0.17.0
+  pin_code_fields: ^7.3.0
+  dropdown_button2: ^2.3.7
+  fluttertoast: ^8.2.2
+  connectivity_plus: ^4.0.1
+  image_cropper: any
+  url_launcher: ^6.0.10
+  kdgaugeview: ^1.0.5
+
+
+
+  get: ^4.6.5
+  progress_dialog_null_safe: ^1.0.7
+  shared_preferences: ^2.2.0
+  flutter_screenutil: ^5.8.4
+  permission_handler: ^10.2.0
+  flutter_image_compress: ^1.1.3
+  expandable: ^5.0.1
+  image: ^4.1.3
+  swipe_cards: ^2.0.0+1
+  youtube_player_flutter: ^8.1.2
+  open_filex: ^4.3.2
+  path_provider: ^2.0.15
+  uuid: ^3.0.7
+  flutter_custom_dialog: ^1.3.0
+  percent_indicator: ^4.2.3
+  sizer: ^2.0.15
+  flutter_custom_clippers: ^2.1.0
+  custom_clippers: ^2.0.0
+  baseflow_plugin_template: ^2.1.2
+  syncfusion_flutter_charts: ^20.3.59
+  flutter_chat_types: ^3.6.2
+  flutter_chat_ui:
+  file_picker: ^5.3.3
+  intl_phone_number_input: ^0.7.2
+  intl_phone_field: ^3.2.0
+  country_list_pick:
+  csc_picker:
+  flutter_switch: ^0.3.2
+  text_area: ^0.0.3
+  toggle_switch: ^2.1.0
+  readmore: ^2.2.0
+  video_player: ^2.7.2
+  chewie: ^1.7.1
+  flutter_rating_bar: ^4.0.1
+  share: ^2.0.4
+  flutter_hashtags: ^0.0.1
+  flutter_mentions: ^2.0.1
+  flutter_typeahead: ^4.8.0
+  autocomplete_textfield: ^2.0.1
+  better_polls: ^1.0.8
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding:
+  geocoder2: ^1.3.0
+  location: ^5.0.3
+  firebase_crashlytics: ^3.4.9
+  flutter_picker:
+  infinite_scroll_pagination: ^4.0.0
+
+  # For integrating firebase
+
+  # For handling firebase authentication
+  firebase_auth: ^4.1.3
+
+  # For handling google sign in
+  google_sign_in: ^5.4.2
+
+  # For accessing cloud firestore database
+  cloud_firestore: ^4.1.0
+
+  # For showing network images
+  cached_network_image: ^3.3.1
+
+  # For picking images
+  image_picker: ^1.0.6
+
+  # For accessing Firebase Storage (for uploading files)
+  firebase_storage: ^11.0.6
+
+  # For showing Emojis
+  emoji_picker_flutter: ^1.5.1
+
+  # For accessing firebase messaging (Push Notification)
+
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.9
+  flutter_local_notifications: ^15.1.1
+  # For calling RestAPIs
+  http: ^0.13.5
+  dio: ^5.4.0
+
+  # For creating notification channel
+  flutter_notification_channel:
+
+  # For storing images into gallery
+  gallery_saver:
+
+
+  #reels
+  camera:
+  local_auth: ^2.1.6
+  video_thumbnail:
+  ffmpeg_kit_flutter: ^5.1.0
+  just_audio: ^0.9.34
+  audio_service: ^0.18.10
+  flutter_video_info: ^1.3.1
+  flutter_easyloading: ^3.0.5
+  connectivity: ^3.0.6
+  country_picker: ^2.0.20
+  currency_picker: ^2.0.16
+  lottie: ^2.5.0
+  pinch_zoom: ^1.0.0
+  pull_to_refresh: ^2.0.0
+  shimmer: ^3.0.0
+  #live
+
+
+  agora_rtc_engine: ^5.0.0
+  agora_rtm: ^1.5.0
+  internet_connection_checker: ^1.0.0+1
+  awesome_notifications:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto/Roboto-BlackItalic.ttf
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto/Roboto-BoldItalic.ttf
+        - asset: assets/fonts/Roboto/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto/Roboto-Light.ttf
+        - asset: assets/fonts/Roboto/Roboto-LightItalic.ttf
+        - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto/Roboto-MediumItalic.ttf
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto/Roboto-Thin.ttf
+        - asset: assets/fonts/Roboto/Roboto-ThinItalic.ttf
+
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/static/Inter-Black.ttf
+        - asset: assets/fonts/Inter/static/Inter-Bold.ttf
+        - asset: assets/fonts/Inter/static/Inter-ExtraBold.ttf
+        - asset: assets/fonts/Inter/static/Inter-ExtraLight.ttf
+        - asset: assets/fonts/Inter/static/Inter-Light.ttf
+        - asset: assets/fonts/Inter/static/Inter-Medium.ttf
+        - asset: assets/fonts/Inter/static/Inter-Regular.ttf
+        - asset: assets/fonts/Inter/static/Inter-Thin.ttf
+
+
+

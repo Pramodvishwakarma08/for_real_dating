@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827201542184",
+    "project_id": "realdatingfinnal",
+    "storage_bucket": "realdatingfinnal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827201542184:android:98d5d2a49ab8e98d7b3d1d",
+        "android_client_info": {
+          "package_name": "com.example.push_notifications_firebase_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP0Tlmvn-0b2OBgloFDCXu9gTYDN-G_PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
