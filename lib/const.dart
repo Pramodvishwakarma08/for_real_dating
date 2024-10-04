@@ -103,27 +103,27 @@ TextStyle? textheding(context){
   );
 }
 TextStyle? textstyleHeading1(context) {
-  return Theme.of(context).textTheme.headline1;
+  return Theme.of(context).textTheme.displayLarge;
 }
 
 TextStyle? textstyleHeading2(context) {
-  return Theme.of(context).textTheme.headline2;
+  return Theme.of(context).textTheme.displayMedium;
 }
 
 TextStyle? textstyleHeading3(context) {
-  return Theme.of(context).textTheme.headline3;
+  return Theme.of(context).textTheme.displaySmall;
 }
 
 TextStyle? textstyleHeading6(context) {
-  return Theme.of(context).textTheme.headline6;
+  return Theme.of(context).textTheme.titleLarge;
 }
 
 TextStyle? textstylesubtitle2(context) {
-  return Theme.of(context).textTheme.subtitle2;
+  return Theme.of(context).textTheme.titleSmall;
 }
 
 TextStyle? textstylesubtitle1(context) {
-  return Theme.of(context).textTheme.subtitle1!.copyWith(fontWeight: FontWeight.normal);
+  return Theme.of(context).textTheme.titleMedium!.copyWith(fontWeight: FontWeight.normal);
 }
 
 double deviceWidth(context, [double size = 1.0]) {

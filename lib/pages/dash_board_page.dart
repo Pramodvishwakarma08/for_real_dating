@@ -64,8 +64,8 @@ class DashboardPageState extends State<DashboardPage> {
         backgroundColor: Colors.white,
         selectedItemColor: Colors.redAccent,
         unselectedItemColor: Colors.black.withOpacity(.60),
-        selectedLabelStyle: textTheme.caption,
-        unselectedLabelStyle: textTheme.caption,
+        selectedLabelStyle: textTheme.bodySmall,
+        unselectedLabelStyle: textTheme.bodySmall,
         onTap: _onItemTapped,
         items: [
           BottomNavigationBarItem(
@@ -135,12 +135,12 @@ ThemeData _buildShrineTheme() {
 TextTheme _buildShrineTextTheme(TextTheme base) {
   return base
       .copyWith(
-        caption: base.caption?.copyWith(
+        bodySmall: base.bodySmall?.copyWith(
           fontWeight: FontWeight.w400,
           fontSize: 14,
           letterSpacing: defaultLetterSpacing,
         ),
-        button: base.button?.copyWith(
+        labelLarge: base.labelLarge?.copyWith(
           fontWeight: FontWeight.w500,
           fontSize: 14,
           letterSpacing: defaultLetterSpacing,
